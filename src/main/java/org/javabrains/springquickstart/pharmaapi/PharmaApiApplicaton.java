@@ -1,12 +1,12 @@
-package org.javabrains.springquickstart.courseapi;
+package org.javabrains.springquickstart.pharmaapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CourseApiApplication {
+public class PharmaApiApplicaton {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CourseApiApplication.class, args);
+		SpringApplication.run(PharmaApiApplicaton.class, args);
 	}
 }

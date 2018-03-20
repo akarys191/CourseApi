@@ -1,4 +1,4 @@
-package org.javabrains.springquickstart.courseapi;
+package org.javabrains.springquickstart.pharmaapi;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
