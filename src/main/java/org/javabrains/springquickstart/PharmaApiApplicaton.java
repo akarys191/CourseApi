@@ -1,4 +1,4 @@
-package org.javabrains.springquickstart.pharmaapi;
+package org.javabrains.springquickstart;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
