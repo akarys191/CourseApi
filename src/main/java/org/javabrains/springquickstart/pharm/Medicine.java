@@ -1,11 +1,22 @@
 package org.javabrains.springquickstart.pharm;
 
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Medicine {
     String id;
     String name;
     String description;
 
+  /*  @JsonCreator
+    public Medicine(@JsonProperty  String id, @JsonProperty String name,@JsonProperty String description) {
+        this.id = id;
+        this.name = name;
+        this.description = description;
+    }*/
+     public Medicine(){}
     public Medicine(String id, String name, String description) {
+        super();
         this.id = id;
         this.name = name;
         this.description = description;

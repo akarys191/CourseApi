@@ -2,8 +2,7 @@ package org.javabrains.springquickstart.pharm;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
 import java.util.List;
@@ -19,8 +18,24 @@ public class PharmaController {
         return medicineService.getAllMedicines();
     }
 
-    public Medicine getMedicine(String id){
-        return
+    @RequestMapping("/medicines/{id}")
+    public Medicine getMedicine(@PathVariable String id){
+        return medicineService.getMedicine(id);
+    }
+
+    @RequestMapping(method= RequestMethod.POST, value="/medicines")
+    public  void addMedicine(@RequestBody Medicine medicine){
+        medicineService.addMedicine(medicine);
+    }
+
+    @RequestMapping(method= RequestMethod.PUT, value="/medicines/{id}")
+    public  void updateMedicine(@RequestBody Medicine medicine,@PathVariable String id){
+        medicineService.updateMedicine(medicine,id);
+    }
+
+    @RequestMapping(method= RequestMethod.DELETE, value="/medicines/{id}")
+    public  void deleteMedicine(@PathVariable String id){
+        medicineService.deleteMedicine(id);
     }
 
 
