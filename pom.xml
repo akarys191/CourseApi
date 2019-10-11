@@ -53,6 +53,15 @@
 						<version>1.8.1</version>
 					</dependency>
 				</dependencies>
+				<executions>
+					<execution>
+						<phase>pre-integration-test</phase>
+						<goals>
+							<goal>install</goal>
+						</goals>
+					</execution>
+				</executions>
+
 			</plugin>
 		</plugins>
 	</build>
