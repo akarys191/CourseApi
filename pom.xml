@@ -17,8 +17,8 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<scm>
-		<connection>scm:git:git@github.com:akarys191/CourseApi.git</connection>
-		<developerConnection>scm:git:git@github.com:akarys191/CourseApi.git</developerConnection>
+		<connection>scm:git:git@github.com/akarys191/CourseApi.git</connection>
+		<developerConnection>scm:git:git@github.com/akarys191/CourseApi.git</developerConnection>
 		<url>https://github.com/akarys191/CourseApi</url>
 		<tag>HEAD</tag>
 	</scm>
