@@ -26,3 +26,4 @@ nbdist/
 /pom.xml.releaseBackup
 /myGitPrivateKey.pub
 /myGitPrivateKey
+/release.properties
