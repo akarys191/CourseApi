@@ -17,10 +17,11 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<!--<connection>scm:git:git@github.com:akarys191/learnPharDemo.git</connection>
-		<developerConnection>scm:git:git@github.com:akarys191/learnPharDemo.git</developerConnection>-->
+		<developerConnection>scm:git:git@github.com:akarys191/learnPharDemo.git</developerConnection>
+		https://github.com/akarys191/CourseApi.git -->
 	<scm>
 		<connection>scm:git:git@github.com:akarys191/CourseApi.git</connection>
-		<developerConnection>scm:git:https://github.com/akarys191/CourseApi.git</developerConnection>
+		<developerConnection>scm:git:git@github.com:akarys191/CourseApi.git</developerConnection>
 		<url>https://github.com/akarys191/CourseApi</url>
 		<tag>my-branch</tag>
 	</scm>
