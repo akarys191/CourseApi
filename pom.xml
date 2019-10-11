@@ -4,7 +4,7 @@
 
 	<groupId>io.javabrains.springquickstarter</groupId>
 	<artifactId>pharm-api</artifactId>
-	<version>0.0.8-SNAPSHOT</version>
+	<version>0.0.6-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>pharm-api</name>
@@ -19,7 +19,7 @@
 	<!--<connection>scm:git:git@github.com:akarys191/learnPharDemo.git</connection>
 		<developerConnection>scm:git:git@github.com:akarys191/learnPharDemo.git</developerConnection>-->
 	<scm>
-		<connection>scm:git:https://github.com/akarys191/CourseApi.git</connection>
+		<connection>scm:git:git@github.com:akarys191/CourseApi.git</connection>
 		<developerConnection>scm:git:https://github.com/akarys191/CourseApi.git</developerConnection>
 		<url>https://github.com/akarys191/CourseApi</url>
 		<tag>my-branch</tag>
